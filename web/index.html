@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de Alunos</title>
+    </head>
+    <body class="container">
+        <br>
+        <h1 class="text-center">Cadastro de Alunos</h1><br>
+        <div class="center-form">
+            <form action="Alunos" method="POST">
+                <div class="form-group row">
+                    <label for="inputNome" class="col-sm-2 col-form-label">Nome:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputNome" style="width: 200px" name="nome">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputDisciplina" class="col-sm-2 col-form-label" >Disciplina:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputDisciplina" name="disc" style="width: 200px">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputCurso" class="col-sm-2 col-form-label" >Curso:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputCurso" name= "curso" style="width: 200px">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputNota" class="col-sm-2 col-form-label"> Nota:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputNota" name= "nota" style="width: 200px">
+                    </div>
+                </div><br>
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Cadastro</button>&nbsp;&nbsp;
+                        <a class="btn btn-primary" href="listaAlunos.jsp" role="button">Listar</a>
+                    </div>
+                </div> 
+            </form>
+        </div>
+    </body>
+</html>
